@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir=ltr>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="business-card middle">
+    <div class="front">
+      <h2>Aryan Naimi</h2>
+      <span>Web Designer/Developer</span>
+      <ul class="contact-info">
+        <li>
+          <i class="fa fa-mobile-alt"></i> +1 (310) 555.1234
+        </li>
+        <li>
+          <i class="fa fa-envelope"></i> Can't give that to you
+        </li>
+        <li>
+          <i class="fa fa-map-marker-alt"></i> Los Angeles, CA
+        </li>
+      </ul>
+    </div>
+    <div class="back">
+      <span>Web Design by A</span>
+    </div>
+  </div>
+  <script>
+    $(".business-card").click(function () {
+      $(".business-card").toggleClass("business-card-active");
+    });
+  </script>
+</body>
+
+</html>
